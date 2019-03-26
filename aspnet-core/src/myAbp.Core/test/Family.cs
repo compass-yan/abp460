@@ -1,6 +1,10 @@
-﻿namespace MQKJ.BSMP.ChineseBabies.PropMall
+﻿using Abp.Domain.Entities.Auditing;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace myAbp.Core
 {
-    public class Family
+    [Table("Families")]
+    public class Family:FullAuditedEntity<int>
     {
     }
 }

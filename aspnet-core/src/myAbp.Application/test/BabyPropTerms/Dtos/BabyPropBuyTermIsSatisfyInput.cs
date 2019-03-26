@@ -10,10 +10,10 @@ namespace MQKJ.BSMP.ChineseBabies.PropMall.BabyPropTerms.Dtos
 
         public int FamilyId { get; set; }
 
-        public BabyProp BabyProp { get; set; }
+        //public BabyProp BabyProp { get; set; }
 
-        public BabyPropTerm Term { get; set; }
+        //public BabyPropTerm Term { get; set; }
 
-        public BabyPropBuyTermType BabyPropBuyTermType { get; set; }
+        //public BabyPropBuyTermType BabyPropBuyTermType { get; set; }
     }
 }

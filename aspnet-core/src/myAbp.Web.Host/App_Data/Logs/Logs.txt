@@ -1,0 +1,1161 @@
+DEBUG 2019-03-27 00:11:00,511 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-27 00:11:00,535 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-03-27 00:11:00,549 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.Web.Host.Startup.myAbpWebHostModule, myAbp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:11:00,551 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpWebCoreModule, myAbp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:11:00,551 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpApplicationModule, myAbp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:11:00,552 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpCoreModule, myAbp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:11:00,552 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:11:00,552 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:11:00,552 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:11:00,553 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:11:00,553 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.EntityFrameworkCore.myAbpEntityFrameworkModule, myAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:11:00,553 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:11:00,554 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:11:00,554 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:11:00,554 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:11:00,554 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:11:00,554 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:11:00,557 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-03-27 00:11:00,605 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:11:00,605 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:11:00,605 [1    ] o.Configuration.LanguageManagementConfig - Converted myAbp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:11:00,605 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:11:00,852 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: myAbp.EntityFrameworkCore.myAbpDbContext, myAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:11:01,153 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-03-27 00:11:01,221 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-27 00:11:01,254 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-03-27 00:11:01,268 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: myAbp
+DEBUG 2019-03-27 00:11:01,289 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-27 00:11:01,313 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-27 00:11:01,351 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-03-27 00:11:01,351 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-03-27 00:11:01,357 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Users.Dto.CreateUserDto
+DEBUG 2019-03-27 00:11:01,358 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Users.Dto.UserDto
+DEBUG 2019-03-27 00:11:01,358 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-03-27 00:11:01,358 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-03-27 00:11:01,358 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.CreateRoleDto
+DEBUG 2019-03-27 00:11:01,358 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.PermissionDto
+DEBUG 2019-03-27 00:11:01,358 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.RoleDto
+DEBUG 2019-03-27 00:11:01,359 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-03-27 00:11:01,359 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.MultiTenancy.Dto.TenantDto
+FATAL 2019-03-27 00:11:12,839 [1    ] Abp.AbpBootstrapper                      - System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "myAbpDb"。登录失败。
+用户 'SESAMEHOME\sesame' 登录失败。
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at myAbp.EntityFrameworkCore.myAbpEntityFrameworkModule.PostInitialize() in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\myAbpEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+ClientConnectionId:737d0111-722e-40e9-a3c4-ba0c6ea7937f
+Error Number:4060,State:1,Class:11
+System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "myAbpDb"。登录失败。
+用户 'SESAMEHOME\sesame' 登录失败。
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at myAbp.EntityFrameworkCore.myAbpEntityFrameworkModule.PostInitialize() in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\myAbpEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+ClientConnectionId:737d0111-722e-40e9-a3c4-ba0c6ea7937f
+Error Number:4060,State:1,Class:11
+WARN  2019-03-27 00:11:12,840 [7    ] Abp.BackgroundJobs.BackgroundJobManager  - System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "myAbpDb"。登录失败。
+用户 'SESAMEHOME\sesame' 登录失败。
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Table() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 39
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 88
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 78
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+ClientConnectionId:737d0111-722e-40e9-a3c4-ba0c6ea7937f
+Error Number:4060,State:1,Class:11
+System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "myAbpDb"。登录失败。
+用户 'SESAMEHOME\sesame' 登录失败。
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Table() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 39
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 88
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 78
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+ClientConnectionId:737d0111-722e-40e9-a3c4-ba0c6ea7937f
+Error Number:4060,State:1,Class:11
+FATAL 2019-03-27 00:11:12,876 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Application startup exception
+System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "myAbpDb"。登录失败。
+用户 'SESAMEHOME\sesame' 登录失败。
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at myAbp.EntityFrameworkCore.myAbpEntityFrameworkModule.PostInitialize() in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\myAbpEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 67
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 38
+   at myAbp.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in E:\codes\abp460\aspnet-core\src\myAbp.Web.Host\Startup\Startup.cs:line 90
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+ClientConnectionId:737d0111-722e-40e9-a3c4-ba0c6ea7937f
+Error Number:4060,State:1,Class:11
+WARN  2019-03-27 00:11:18,639 [9    ] Abp.BackgroundJobs.BackgroundJobManager  - Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkBase.cs:line 444
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkBase.cs:line 232
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkBase.cs:line 119
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkManager.cs:line 78
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 74
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+Abp.AbpException: Unknown filter name: MayHaveTenant. Be sure this filter is registered before.
+   at Abp.Domain.Uow.UnitOfWorkBase.GetFilterIndex(String filterName) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkBase.cs:line 444
+   at Abp.Domain.Uow.UnitOfWorkBase.SetFilterParameter(String filterName, String parameterName, Object value)
+   at Abp.Domain.Uow.UnitOfWorkBase.SetTenantId(Nullable`1 tenantId, Boolean switchMustHaveTenantEnableDisable) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkBase.cs:line 232
+   at Abp.Domain.Uow.UnitOfWorkBase.Begin(UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkBase.cs:line 119
+   at Abp.Domain.Uow.UnitOfWorkManager.Begin(UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkManager.cs:line 78
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 74
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+DEBUG 2019-03-27 00:13:00,459 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-27 00:13:00,527 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-03-27 00:13:00,539 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.Web.Host.Startup.myAbpWebHostModule, myAbp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:13:00,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpWebCoreModule, myAbp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:13:00,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpApplicationModule, myAbp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:13:00,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpCoreModule, myAbp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:13:00,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:13:00,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:13:00,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:13:00,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:13:00,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.EntityFrameworkCore.myAbpEntityFrameworkModule, myAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:13:00,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:13:00,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:13:00,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:13:00,544 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:13:00,544 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:13:00,544 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:13:00,546 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-03-27 00:13:00,589 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:13:00,589 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:13:00,589 [1    ] o.Configuration.LanguageManagementConfig - Converted myAbp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:13:00,589 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:13:00,798 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: myAbp.EntityFrameworkCore.myAbpDbContext, myAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:13:01,089 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-03-27 00:13:01,153 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-27 00:13:01,186 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-03-27 00:13:01,200 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: myAbp
+DEBUG 2019-03-27 00:13:01,222 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-27 00:13:01,246 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-27 00:13:01,281 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-03-27 00:13:01,281 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-03-27 00:13:01,286 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Users.Dto.CreateUserDto
+DEBUG 2019-03-27 00:13:01,286 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Users.Dto.UserDto
+DEBUG 2019-03-27 00:13:01,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-03-27 00:13:01,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-03-27 00:13:01,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.CreateRoleDto
+DEBUG 2019-03-27 00:13:01,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.PermissionDto
+DEBUG 2019-03-27 00:13:01,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.RoleDto
+DEBUG 2019-03-27 00:13:01,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-03-27 00:13:01,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.MultiTenancy.Dto.TenantDto
+INFO  2019-03-27 00:16:09,160 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-03-27 00:16:10,227 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action myAbp.Web.Host.Controllers.HomeController.Index (myAbp.Web.Host)
+INFO  2019-03-27 00:16:10,568 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method myAbp.Web.Host.Controllers.HomeController.Index (myAbp.Web.Host) - Validation state: Valid
+INFO  2019-03-27 00:16:10,571 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method myAbp.Web.Host.Controllers.HomeController.Index (myAbp.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 1.4486ms.
+INFO  2019-03-27 00:16:10,647 [16   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-03-27 00:16:10,658 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action myAbp.Web.Host.Controllers.HomeController.Index (myAbp.Web.Host) in 426.7465ms
+INFO  2019-03-27 00:16:10,719 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1565.3136ms 302 
+INFO  2019-03-27 00:16:10,720 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2019-03-27 00:16:10,731 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.3127ms 301 
+INFO  2019-03-27 00:16:10,735 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-03-27 00:16:10,762 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.8729ms 200 text/html
+INFO  2019-03-27 00:16:10,815 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-03-27 00:16:10,815 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-03-27 00:16:10,827 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2019-03-27 00:16:10,828 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-03-27 00:16:10,853 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2019-03-27 00:16:10,861 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'E:\codes\abp460\aspnet-core\src\myAbp.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2019-03-27 00:16:10,862 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.1443ms 200 application/javascript
+INFO  2019-03-27 00:16:10,862 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'E:\codes\abp460\aspnet-core\src\myAbp.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2019-03-27 00:16:10,862 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.1031ms 200 application/javascript
+INFO  2019-03-27 00:16:10,866 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2019-03-27 00:16:10,869 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2019-03-27 00:16:10,870 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 55.0036ms 200 text/css
+INFO  2019-03-27 00:16:10,870 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.2513ms 200 application/javascript
+INFO  2019-03-27 00:16:10,890 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2019-03-27 00:16:10,890 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 75.199ms 200 application/javascript
+INFO  2019-03-27 00:16:11,530 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-03-27 00:16:11,593 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2019-03-27 00:16:11,597 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2019-03-27 00:16:11,597 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.4446ms 200 image/png
+INFO  2019-03-27 00:16:11,765 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 235.2295ms 200 application/json;charset=utf-8
+INFO  2019-03-27 00:16:40,220 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/BabyProp/GetFamilyPropBuyInfo?input=%7B%7D  
+INFO  2019-03-27 00:16:40,294 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetFamilyPropBuyInfo", controller = "BabyProp"}. Executing action MQKJ.BSMP.ChineseBabies.BabyPropAppService.GetFamilyPropBuyInfo (myAbp.Application)
+ERROR 2019-03-27 00:16:40,299 [16   ] Mvc.ExceptionHandling.AbpExceptionFilter - Can't create component 'MQKJ.BSMP.ChineseBabies.PropMall.BabyPropTermApplicationService' as it has dependencies to be satisfied.
+
+'MQKJ.BSMP.ChineseBabies.PropMall.BabyPropTermApplicationService' is waiting for the following dependencies:
+- Service 'Abp.Domain.Repositories.IRepository`2[[MQKJ.BSMP.ChineseBabies.PropMall.Baby, myAbp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' which was not registered.
+- Service 'Abp.Domain.Repositories.IRepository`2[[MQKJ.BSMP.ChineseBabies.PropMall.PlayerProfession, myAbp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' which was not registered.
+
+Castle.MicroKernel.Handlers.HandlerException: Can't create component 'MQKJ.BSMP.ChineseBabies.PropMall.BabyPropTermApplicationService' as it has dependencies to be satisfied.
+
+'MQKJ.BSMP.ChineseBabies.PropMall.BabyPropTermApplicationService' is waiting for the following dependencies:
+- Service 'Abp.Domain.Repositories.IRepository`2[[MQKJ.BSMP.ChineseBabies.PropMall.Baby, myAbp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' which was not registered.
+- Service 'Abp.Domain.Repositories.IRepository`2[[MQKJ.BSMP.ChineseBabies.PropMall.PlayerProfession, myAbp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' which was not registered.
+
+   at Castle.MicroKernel.Handlers.DefaultHandler.AssertNotWaitingForDependency()
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetServiceInternal(Type serviceType, Boolean isOptional) in D:\Github\castle-windsor-ms-adapter\src\Castle.Windsor.MsDependencyInjection\ScopedWindsorServiceProvider.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-03-27 00:16:40,448 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-03-27 00:16:40,466 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MQKJ.BSMP.ChineseBabies.BabyPropAppService.GetFamilyPropBuyInfo (myAbp.Application) in 171.8403ms
+INFO  2019-03-27 00:16:40,466 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 245.3751ms 500 application/json; charset=utf-8
+DEBUG 2019-03-27 00:40:07,033 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-27 00:40:07,061 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-03-27 00:40:07,076 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.Web.Host.Startup.myAbpWebHostModule, myAbp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:40:07,078 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpWebCoreModule, myAbp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:40:07,078 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpApplicationModule, myAbp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:40:07,078 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpCoreModule, myAbp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:40:07,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:40:07,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:40:07,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:40:07,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:40:07,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.EntityFrameworkCore.myAbpEntityFrameworkModule, myAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:40:07,080 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:40:07,080 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:40:07,080 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:40:07,080 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:40:07,080 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:40:07,081 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:40:07,083 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-03-27 00:40:07,135 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:40:07,135 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:40:07,135 [1    ] o.Configuration.LanguageManagementConfig - Converted myAbp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:40:07,135 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:40:07,369 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: myAbp.EntityFrameworkCore.myAbpDbContext, myAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:40:07,694 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-03-27 00:40:07,764 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-27 00:40:07,800 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-03-27 00:40:07,816 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: myAbp
+DEBUG 2019-03-27 00:40:07,839 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-27 00:40:07,866 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-27 00:40:07,906 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-03-27 00:40:07,906 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-03-27 00:40:07,911 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Users.Dto.CreateUserDto
+DEBUG 2019-03-27 00:40:07,912 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Users.Dto.UserDto
+DEBUG 2019-03-27 00:40:07,912 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-03-27 00:40:07,912 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-03-27 00:40:07,912 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.CreateRoleDto
+DEBUG 2019-03-27 00:40:07,912 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.PermissionDto
+DEBUG 2019-03-27 00:40:07,912 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.RoleDto
+DEBUG 2019-03-27 00:40:07,913 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-03-27 00:40:07,913 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.MultiTenancy.Dto.TenantDto
+FATAL 2019-03-27 00:40:09,142 [1    ] Abp.AbpBootstrapper                      - System.InvalidOperationException: The entity type 'Family' requires a primary key to be defined.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Internal.SqlServerModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ValidatingConvention.Apply(InternalModelBuilder modelBuilder)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ImmediateConventionScope.OnModelBuilt(InternalModelBuilder modelBuilder)
+   at Microsoft.EntityFrameworkCore.ModelBuilder.FinalizeModel()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.Internal.InternalAccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.get_ExecutionStrategyFactory()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.CreateExecutionStrategy()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at myAbp.EntityFrameworkCore.myAbpEntityFrameworkModule.PostInitialize() in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\myAbpEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+System.InvalidOperationException: The entity type 'Family' requires a primary key to be defined.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Internal.SqlServerModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ValidatingConvention.Apply(InternalModelBuilder modelBuilder)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ImmediateConventionScope.OnModelBuilt(InternalModelBuilder modelBuilder)
+   at Microsoft.EntityFrameworkCore.ModelBuilder.FinalizeModel()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.Internal.InternalAccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.get_ExecutionStrategyFactory()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.CreateExecutionStrategy()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at myAbp.EntityFrameworkCore.myAbpEntityFrameworkModule.PostInitialize() in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\myAbpEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+FATAL 2019-03-27 00:40:09,173 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Application startup exception
+System.InvalidOperationException: The entity type 'Family' requires a primary key to be defined.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Internal.SqlServerModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ValidatingConvention.Apply(InternalModelBuilder modelBuilder)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ImmediateConventionScope.OnModelBuilt(InternalModelBuilder modelBuilder)
+   at Microsoft.EntityFrameworkCore.ModelBuilder.FinalizeModel()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.Internal.InternalAccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.get_ExecutionStrategyFactory()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.CreateExecutionStrategy()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at myAbp.EntityFrameworkCore.myAbpEntityFrameworkModule.PostInitialize() in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\myAbpEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 67
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 38
+   at myAbp.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in E:\codes\abp460\aspnet-core\src\myAbp.Web.Host\Startup\Startup.cs:line 90
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+DEBUG 2019-03-27 00:41:40,201 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-27 00:41:40,226 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-03-27 00:41:40,242 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.Web.Host.Startup.myAbpWebHostModule, myAbp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:40,244 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpWebCoreModule, myAbp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:40,245 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpApplicationModule, myAbp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:40,245 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpCoreModule, myAbp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:40,245 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:40,245 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:40,245 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:40,246 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:40,246 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.EntityFrameworkCore.myAbpEntityFrameworkModule, myAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:40,246 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:40,246 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:40,246 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:40,247 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:40,247 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:40,247 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:40,249 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-03-27 00:41:40,299 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:41:40,299 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:41:40,299 [1    ] o.Configuration.LanguageManagementConfig - Converted myAbp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:41:40,299 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:41:40,542 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: myAbp.EntityFrameworkCore.myAbpDbContext, myAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:40,880 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-03-27 00:41:40,953 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-27 00:41:40,992 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-03-27 00:41:41,010 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: myAbp
+DEBUG 2019-03-27 00:41:41,035 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-27 00:41:41,061 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-27 00:41:41,100 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-03-27 00:41:41,100 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-03-27 00:41:41,106 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Users.Dto.CreateUserDto
+DEBUG 2019-03-27 00:41:41,107 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Users.Dto.UserDto
+DEBUG 2019-03-27 00:41:41,107 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-03-27 00:41:41,107 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-03-27 00:41:41,107 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.CreateRoleDto
+DEBUG 2019-03-27 00:41:41,107 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.PermissionDto
+DEBUG 2019-03-27 00:41:41,107 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.RoleDto
+DEBUG 2019-03-27 00:41:41,108 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-03-27 00:41:41,108 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.MultiTenancy.Dto.TenantDto
+FATAL 2019-03-27 00:41:41,945 [1    ] Abp.AbpBootstrapper                      - System.ArgumentException: The argument 'name' cannot be null, empty or contain only whitespace.
+   at System.ComponentModel.DataAnnotations.Schema.TableAttribute..ctor(String name)
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.CreateCaObject(RuntimeModule module, IRuntimeMethodInfo ctor, IntPtr& blob, IntPtr blobEnd, Int32& namedArgs)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type type, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element, Boolean inherit)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.EntityTypeAttributeConvention`1.Apply(InternalEntityTypeBuilder entityTypeBuilder)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ImmediateConventionScope.OnEntityTypeAdded(InternalEntityTypeBuilder entityTypeBuilder)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.RunVisitor.VisitOnEntityTypeAdded(OnEntityTypeAddedNode node)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ConventionVisitor.VisitConventionScope(ConventionScope node)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ConventionVisitor.VisitConventionScope(ConventionScope node)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ConventionBatch.Run()
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.InternalModelBuilder.Entity(TypeIdentity& type, ConfigurationSource configurationSource, Boolean allowOwned, Boolean throwOnQuery)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.InternalModelBuilder.Entity(Type type, ConfigurationSource configurationSource, Boolean allowOwned, Boolean throwOnQuery)
+   at Microsoft.EntityFrameworkCore.ModelBuilder.Entity(Type type)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelCustomizer.FindSets(ModelBuilder modelBuilder, DbContext context)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelCustomizer.FindSets(ModelBuilder modelBuilder, DbContext context)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelCustomizer.Customize(ModelBuilder modelBuilder, DbContext context)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, IConventionSetBuilder conventionSetBuilder, IModelValidator validator)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.Internal.InternalAccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.get_ExecutionStrategyFactory()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.CreateExecutionStrategy()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at myAbp.EntityFrameworkCore.myAbpEntityFrameworkModule.PostInitialize() in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\myAbpEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+System.ArgumentException: The argument 'name' cannot be null, empty or contain only whitespace.
+   at System.ComponentModel.DataAnnotations.Schema.TableAttribute..ctor(String name)
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.CreateCaObject(RuntimeModule module, IRuntimeMethodInfo ctor, IntPtr& blob, IntPtr blobEnd, Int32& namedArgs)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type type, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element, Boolean inherit)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.EntityTypeAttributeConvention`1.Apply(InternalEntityTypeBuilder entityTypeBuilder)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ImmediateConventionScope.OnEntityTypeAdded(InternalEntityTypeBuilder entityTypeBuilder)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.RunVisitor.VisitOnEntityTypeAdded(OnEntityTypeAddedNode node)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ConventionVisitor.VisitConventionScope(ConventionScope node)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ConventionVisitor.VisitConventionScope(ConventionScope node)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ConventionBatch.Run()
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.InternalModelBuilder.Entity(TypeIdentity& type, ConfigurationSource configurationSource, Boolean allowOwned, Boolean throwOnQuery)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.InternalModelBuilder.Entity(Type type, ConfigurationSource configurationSource, Boolean allowOwned, Boolean throwOnQuery)
+   at Microsoft.EntityFrameworkCore.ModelBuilder.Entity(Type type)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelCustomizer.FindSets(ModelBuilder modelBuilder, DbContext context)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelCustomizer.FindSets(ModelBuilder modelBuilder, DbContext context)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelCustomizer.Customize(ModelBuilder modelBuilder, DbContext context)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, IConventionSetBuilder conventionSetBuilder, IModelValidator validator)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.Internal.InternalAccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.get_ExecutionStrategyFactory()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.CreateExecutionStrategy()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at myAbp.EntityFrameworkCore.myAbpEntityFrameworkModule.PostInitialize() in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\myAbpEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+FATAL 2019-03-27 00:41:41,970 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Application startup exception
+System.ArgumentException: The argument 'name' cannot be null, empty or contain only whitespace.
+   at System.ComponentModel.DataAnnotations.Schema.TableAttribute..ctor(String name)
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.CreateCaObject(RuntimeModule module, IRuntimeMethodInfo ctor, IntPtr& blob, IntPtr blobEnd, Int32& namedArgs)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type type, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element, Boolean inherit)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.EntityTypeAttributeConvention`1.Apply(InternalEntityTypeBuilder entityTypeBuilder)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ImmediateConventionScope.OnEntityTypeAdded(InternalEntityTypeBuilder entityTypeBuilder)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.RunVisitor.VisitOnEntityTypeAdded(OnEntityTypeAddedNode node)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ConventionVisitor.VisitConventionScope(ConventionScope node)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ConventionVisitor.VisitConventionScope(ConventionScope node)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ConventionBatch.Run()
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.InternalModelBuilder.Entity(TypeIdentity& type, ConfigurationSource configurationSource, Boolean allowOwned, Boolean throwOnQuery)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.InternalModelBuilder.Entity(Type type, ConfigurationSource configurationSource, Boolean allowOwned, Boolean throwOnQuery)
+   at Microsoft.EntityFrameworkCore.ModelBuilder.Entity(Type type)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelCustomizer.FindSets(ModelBuilder modelBuilder, DbContext context)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelCustomizer.FindSets(ModelBuilder modelBuilder, DbContext context)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelCustomizer.Customize(ModelBuilder modelBuilder, DbContext context)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, IConventionSetBuilder conventionSetBuilder, IModelValidator validator)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.Internal.InternalAccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.get_ExecutionStrategyFactory()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.CreateExecutionStrategy()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at myAbp.EntityFrameworkCore.myAbpEntityFrameworkModule.PostInitialize() in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\myAbpEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 67
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 38
+   at myAbp.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in E:\codes\abp460\aspnet-core\src\myAbp.Web.Host\Startup\Startup.cs:line 90
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+DEBUG 2019-03-27 00:41:57,023 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-27 00:41:57,051 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-03-27 00:41:57,069 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.Web.Host.Startup.myAbpWebHostModule, myAbp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:57,072 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpWebCoreModule, myAbp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:57,073 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpApplicationModule, myAbp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:57,073 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpCoreModule, myAbp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:57,073 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:57,073 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:57,074 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:57,074 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:57,075 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.EntityFrameworkCore.myAbpEntityFrameworkModule, myAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:57,075 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:57,075 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:57,075 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:57,075 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:57,076 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:57,076 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:57,079 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-03-27 00:41:57,138 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:41:57,138 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:41:57,138 [1    ] o.Configuration.LanguageManagementConfig - Converted myAbp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:41:57,138 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:41:57,450 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: myAbp.EntityFrameworkCore.myAbpDbContext, myAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:41:57,900 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-03-27 00:41:57,981 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-27 00:41:58,020 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-03-27 00:41:58,039 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: myAbp
+DEBUG 2019-03-27 00:41:58,067 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-27 00:41:58,112 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-27 00:41:58,163 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-03-27 00:41:58,163 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-03-27 00:41:58,172 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Users.Dto.CreateUserDto
+DEBUG 2019-03-27 00:41:58,173 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Users.Dto.UserDto
+DEBUG 2019-03-27 00:41:58,173 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-03-27 00:41:58,173 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-03-27 00:41:58,173 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.CreateRoleDto
+DEBUG 2019-03-27 00:41:58,173 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.PermissionDto
+DEBUG 2019-03-27 00:41:58,173 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.RoleDto
+DEBUG 2019-03-27 00:41:58,174 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-03-27 00:41:58,174 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.MultiTenancy.Dto.TenantDto
+FATAL 2019-03-27 00:41:59,444 [1    ] Abp.AbpBootstrapper                      - System.ArgumentException: The argument 'name' cannot be null, empty or contain only whitespace.
+   at System.ComponentModel.DataAnnotations.Schema.TableAttribute..ctor(String name)
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.CreateCaObject(RuntimeModule module, IRuntimeMethodInfo ctor, IntPtr& blob, IntPtr blobEnd, Int32& namedArgs)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type type, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element, Boolean inherit)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.EntityTypeAttributeConvention`1.Apply(InternalEntityTypeBuilder entityTypeBuilder)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ImmediateConventionScope.OnEntityTypeAdded(InternalEntityTypeBuilder entityTypeBuilder)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.RunVisitor.VisitOnEntityTypeAdded(OnEntityTypeAddedNode node)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ConventionVisitor.VisitConventionScope(ConventionScope node)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ConventionVisitor.VisitConventionScope(ConventionScope node)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ConventionBatch.Run()
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.InternalModelBuilder.Entity(TypeIdentity& type, ConfigurationSource configurationSource, Boolean allowOwned, Boolean throwOnQuery)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.InternalModelBuilder.Entity(Type type, ConfigurationSource configurationSource, Boolean allowOwned, Boolean throwOnQuery)
+   at Microsoft.EntityFrameworkCore.ModelBuilder.Entity(Type type)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelCustomizer.FindSets(ModelBuilder modelBuilder, DbContext context)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelCustomizer.FindSets(ModelBuilder modelBuilder, DbContext context)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelCustomizer.Customize(ModelBuilder modelBuilder, DbContext context)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, IConventionSetBuilder conventionSetBuilder, IModelValidator validator)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.Internal.InternalAccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.get_ExecutionStrategyFactory()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.CreateExecutionStrategy()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at myAbp.EntityFrameworkCore.myAbpEntityFrameworkModule.PostInitialize() in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\myAbpEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+System.ArgumentException: The argument 'name' cannot be null, empty or contain only whitespace.
+   at System.ComponentModel.DataAnnotations.Schema.TableAttribute..ctor(String name)
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.CreateCaObject(RuntimeModule module, IRuntimeMethodInfo ctor, IntPtr& blob, IntPtr blobEnd, Int32& namedArgs)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type type, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element, Boolean inherit)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.EntityTypeAttributeConvention`1.Apply(InternalEntityTypeBuilder entityTypeBuilder)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ImmediateConventionScope.OnEntityTypeAdded(InternalEntityTypeBuilder entityTypeBuilder)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.RunVisitor.VisitOnEntityTypeAdded(OnEntityTypeAddedNode node)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ConventionVisitor.VisitConventionScope(ConventionScope node)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ConventionVisitor.VisitConventionScope(ConventionScope node)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ConventionBatch.Run()
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.InternalModelBuilder.Entity(TypeIdentity& type, ConfigurationSource configurationSource, Boolean allowOwned, Boolean throwOnQuery)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.InternalModelBuilder.Entity(Type type, ConfigurationSource configurationSource, Boolean allowOwned, Boolean throwOnQuery)
+   at Microsoft.EntityFrameworkCore.ModelBuilder.Entity(Type type)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelCustomizer.FindSets(ModelBuilder modelBuilder, DbContext context)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelCustomizer.FindSets(ModelBuilder modelBuilder, DbContext context)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelCustomizer.Customize(ModelBuilder modelBuilder, DbContext context)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, IConventionSetBuilder conventionSetBuilder, IModelValidator validator)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.Internal.InternalAccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.get_ExecutionStrategyFactory()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.CreateExecutionStrategy()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at myAbp.EntityFrameworkCore.myAbpEntityFrameworkModule.PostInitialize() in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\myAbpEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+FATAL 2019-03-27 00:41:59,480 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Application startup exception
+System.ArgumentException: The argument 'name' cannot be null, empty or contain only whitespace.
+   at System.ComponentModel.DataAnnotations.Schema.TableAttribute..ctor(String name)
+   at System.Reflection.CustomAttribute._CreateCaObject(RuntimeModule pModule, IRuntimeMethodInfo pCtor, Byte** ppBlob, Byte* pEndBlob, Int32* pcNamedArgs)
+   at System.Reflection.CustomAttribute.CreateCaObject(RuntimeModule module, IRuntimeMethodInfo ctor, IntPtr& blob, IntPtr blobEnd, Int32& namedArgs)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType, Boolean mustBeInheritable, IList derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at System.Attribute.GetCustomAttributes(MemberInfo element, Type type, Boolean inherit)
+   at System.Reflection.CustomAttributeExtensions.GetCustomAttributes[T](MemberInfo element, Boolean inherit)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.EntityTypeAttributeConvention`1.Apply(InternalEntityTypeBuilder entityTypeBuilder)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ImmediateConventionScope.OnEntityTypeAdded(InternalEntityTypeBuilder entityTypeBuilder)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.RunVisitor.VisitOnEntityTypeAdded(OnEntityTypeAddedNode node)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ConventionVisitor.VisitConventionScope(ConventionScope node)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ConventionVisitor.VisitConventionScope(ConventionScope node)
+   at Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal.ConventionDispatcher.ConventionBatch.Run()
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.InternalModelBuilder.Entity(TypeIdentity& type, ConfigurationSource configurationSource, Boolean allowOwned, Boolean throwOnQuery)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.InternalModelBuilder.Entity(Type type, ConfigurationSource configurationSource, Boolean allowOwned, Boolean throwOnQuery)
+   at Microsoft.EntityFrameworkCore.ModelBuilder.Entity(Type type)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelCustomizer.FindSets(ModelBuilder modelBuilder, DbContext context)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelCustomizer.FindSets(ModelBuilder modelBuilder, DbContext context)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelCustomizer.Customize(ModelBuilder modelBuilder, DbContext context)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, IConventionSetBuilder conventionSetBuilder, IModelValidator validator)
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.Internal.InternalAccessorExtensions.GetService[TService](IInfrastructure`1 accessor)
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.get_ExecutionStrategyFactory()
+   at Microsoft.EntityFrameworkCore.Infrastructure.DatabaseFacade.CreateExecutionStrategy()
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at myAbp.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at myAbp.EntityFrameworkCore.myAbpEntityFrameworkModule.PostInitialize() in E:\codes\abp460\aspnet-core\src\myAbp.EntityFrameworkCore\EntityFrameworkCore\myAbpEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 67
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 38
+   at myAbp.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in E:\codes\abp460\aspnet-core\src\myAbp.Web.Host\Startup\Startup.cs:line 90
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+DEBUG 2019-03-27 00:51:31,455 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-27 00:51:31,480 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-03-27 00:51:31,495 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.Web.Host.Startup.myAbpWebHostModule, myAbp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:31,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpWebCoreModule, myAbp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:31,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpApplicationModule, myAbp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:31,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpCoreModule, myAbp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:31,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:31,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:31,499 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:31,499 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:31,499 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.EntityFrameworkCore.myAbpEntityFrameworkModule, myAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:31,499 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:31,499 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:31,500 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:31,500 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:31,500 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:31,500 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:31,503 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-03-27 00:51:31,553 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:51:31,553 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:51:31,553 [1    ] o.Configuration.LanguageManagementConfig - Converted myAbp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:51:31,553 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:51:31,795 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: myAbp.EntityFrameworkCore.myAbpDbContext, myAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:32,118 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-03-27 00:51:32,186 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-27 00:51:32,221 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-03-27 00:51:32,235 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: myAbp
+DEBUG 2019-03-27 00:51:32,259 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-27 00:51:32,286 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-27 00:51:32,323 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-03-27 00:51:32,323 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-03-27 00:51:32,329 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Users.Dto.CreateUserDto
+DEBUG 2019-03-27 00:51:32,329 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Users.Dto.UserDto
+DEBUG 2019-03-27 00:51:32,330 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-03-27 00:51:32,330 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-03-27 00:51:32,330 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.CreateRoleDto
+DEBUG 2019-03-27 00:51:32,330 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.PermissionDto
+DEBUG 2019-03-27 00:51:32,330 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.RoleDto
+DEBUG 2019-03-27 00:51:32,330 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-03-27 00:51:32,331 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.MultiTenancy.Dto.TenantDto
+DEBUG 2019-03-27 00:51:52,232 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-27 00:51:52,258 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-03-27 00:51:52,272 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.Web.Host.Startup.myAbpWebHostModule, myAbp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:52,275 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpWebCoreModule, myAbp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:52,275 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpApplicationModule, myAbp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:52,275 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpCoreModule, myAbp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:52,275 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:52,275 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:52,276 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:52,276 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:52,276 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.EntityFrameworkCore.myAbpEntityFrameworkModule, myAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:52,277 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:52,277 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:52,277 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:52,277 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:52,277 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:52,277 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:52,280 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-03-27 00:51:52,331 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:51:52,331 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:51:52,331 [1    ] o.Configuration.LanguageManagementConfig - Converted myAbp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:51:52,331 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:51:52,628 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: myAbp.EntityFrameworkCore.myAbpDbContext, myAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:51:52,972 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-03-27 00:51:53,044 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-27 00:51:53,081 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-03-27 00:51:53,097 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: myAbp
+DEBUG 2019-03-27 00:51:53,120 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-27 00:51:53,150 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-27 00:51:53,187 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-03-27 00:51:53,187 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-03-27 00:51:53,193 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Users.Dto.CreateUserDto
+DEBUG 2019-03-27 00:51:53,193 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Users.Dto.UserDto
+DEBUG 2019-03-27 00:51:53,193 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-03-27 00:51:53,193 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-03-27 00:51:53,193 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.CreateRoleDto
+DEBUG 2019-03-27 00:51:53,194 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.PermissionDto
+DEBUG 2019-03-27 00:51:53,194 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.RoleDto
+DEBUG 2019-03-27 00:51:53,194 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-03-27 00:51:53,194 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.MultiTenancy.Dto.TenantDto
+INFO  2019-03-27 00:52:43,535 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/BabyProp/GetFamilyPropBuyInfo?input=%7B%7D  
+INFO  2019-03-27 00:52:44,694 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetFamilyPropBuyInfo", controller = "BabyProp"}. Executing action MQKJ.BSMP.ChineseBabies.BabyPropAppService.GetFamilyPropBuyInfo (myAbp.Application)
+ERROR 2019-03-27 00:52:44,734 [9    ] Mvc.ExceptionHandling.AbpExceptionFilter - Can't create component 'MQKJ.BSMP.ChineseBabies.PropMall.BabyPropTermApplicationService' as it has dependencies to be satisfied.
+
+'MQKJ.BSMP.ChineseBabies.PropMall.BabyPropTermApplicationService' is waiting for the following dependencies:
+- Service 'Abp.Domain.Repositories.IRepository`2[[MQKJ.BSMP.ChineseBabies.PropMall.PlayerProfession, myAbp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' which was not registered.
+
+Castle.MicroKernel.Handlers.HandlerException: Can't create component 'MQKJ.BSMP.ChineseBabies.PropMall.BabyPropTermApplicationService' as it has dependencies to be satisfied.
+
+'MQKJ.BSMP.ChineseBabies.PropMall.BabyPropTermApplicationService' is waiting for the following dependencies:
+- Service 'Abp.Domain.Repositories.IRepository`2[[MQKJ.BSMP.ChineseBabies.PropMall.PlayerProfession, myAbp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' which was not registered.
+
+   at Castle.MicroKernel.Handlers.DefaultHandler.AssertNotWaitingForDependency()
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.Resolvers.DefaultDependencyResolver.Resolve(CreationContext context, ISubDependencyResolver contextHandlerResolver, ComponentModel model, DependencyModel dependency)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateConstructorArguments(ConstructorCandidate constructor, CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   at Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   at Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   at Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   at Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   at Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy, Boolean ignoreParentContext)
+   at Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   at Castle.Windsor.MsDependencyInjection.ScopedWindsorServiceProvider.GetServiceInternal(Type serviceType, Boolean isOptional) in D:\Github\castle-windsor-ms-adapter\src\Castle.Windsor.MsDependencyInjection\ScopedWindsorServiceProvider.cs:line 55
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-03-27 00:52:44,884 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-03-27 00:52:44,961 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MQKJ.BSMP.ChineseBabies.BabyPropAppService.GetFamilyPropBuyInfo (myAbp.Application) in 263.5315ms
+INFO  2019-03-27 00:52:44,975 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1444.717ms 500 application/json; charset=utf-8
+DEBUG 2019-03-27 00:54:45,382 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-27 00:54:45,408 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-03-27 00:54:45,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.Web.Host.Startup.myAbpWebHostModule, myAbp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:54:45,424 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpWebCoreModule, myAbp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:54:45,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpApplicationModule, myAbp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:54:45,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpCoreModule, myAbp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:54:45,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:54:45,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:54:45,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:54:45,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:54:45,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.EntityFrameworkCore.myAbpEntityFrameworkModule, myAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:54:45,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:54:45,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:54:45,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:54:45,427 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:54:45,427 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:54:45,427 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:54:45,431 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-03-27 00:54:45,482 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:54:45,482 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:54:45,482 [1    ] o.Configuration.LanguageManagementConfig - Converted myAbp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:54:45,482 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:54:45,724 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: myAbp.EntityFrameworkCore.myAbpDbContext, myAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:54:46,069 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-03-27 00:54:46,141 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-27 00:54:46,176 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-03-27 00:54:46,192 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: myAbp
+DEBUG 2019-03-27 00:54:46,215 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-27 00:54:46,244 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-27 00:54:46,281 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-03-27 00:54:46,281 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-03-27 00:54:46,286 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Users.Dto.CreateUserDto
+DEBUG 2019-03-27 00:54:46,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Users.Dto.UserDto
+DEBUG 2019-03-27 00:54:46,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-03-27 00:54:46,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-03-27 00:54:46,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.CreateRoleDto
+DEBUG 2019-03-27 00:54:46,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.PermissionDto
+DEBUG 2019-03-27 00:54:46,287 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.RoleDto
+DEBUG 2019-03-27 00:54:46,288 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-03-27 00:54:46,288 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.MultiTenancy.Dto.TenantDto
+DEBUG 2019-03-27 00:55:04,378 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-27 00:55:04,401 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-03-27 00:55:04,418 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.Web.Host.Startup.myAbpWebHostModule, myAbp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:55:04,420 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpWebCoreModule, myAbp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:55:04,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpApplicationModule, myAbp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:55:04,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpCoreModule, myAbp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:55:04,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:55:04,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:55:04,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:55:04,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:55:04,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.EntityFrameworkCore.myAbpEntityFrameworkModule, myAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:55:04,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:55:04,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:55:04,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:55:04,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:55:04,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:55:04,424 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:55:04,426 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-03-27 00:55:04,477 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:55:04,477 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:55:04,477 [1    ] o.Configuration.LanguageManagementConfig - Converted myAbp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:55:04,477 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:55:04,719 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: myAbp.EntityFrameworkCore.myAbpDbContext, myAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:55:05,047 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-03-27 00:55:05,119 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-27 00:55:05,154 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-03-27 00:55:05,171 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: myAbp
+DEBUG 2019-03-27 00:55:05,194 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-27 00:55:05,223 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-27 00:55:05,263 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-03-27 00:55:05,263 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-03-27 00:55:05,268 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Users.Dto.CreateUserDto
+DEBUG 2019-03-27 00:55:05,269 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Users.Dto.UserDto
+DEBUG 2019-03-27 00:55:05,269 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-03-27 00:55:05,269 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-03-27 00:55:05,269 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.CreateRoleDto
+DEBUG 2019-03-27 00:55:05,269 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.PermissionDto
+DEBUG 2019-03-27 00:55:05,269 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.RoleDto
+DEBUG 2019-03-27 00:55:05,270 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-03-27 00:55:05,270 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.MultiTenancy.Dto.TenantDto
+INFO  2019-03-27 00:55:37,198 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/BabyProp/GetFamilyPropBuyInfo?input=%7B%7D  
+INFO  2019-03-27 00:55:38,352 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetFamilyPropBuyInfo", controller = "BabyProp"}. Executing action MQKJ.BSMP.ChineseBabies.BabyPropAppService.GetFamilyPropBuyInfo (myAbp.Application)
+INFO  2019-03-27 00:55:38,612 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MQKJ.BSMP.ChineseBabies.BabyPropAppService.GetFamilyPropBuyInfo (myAbp.Application) with arguments (MQKJ.BSMP.ChineseBabies.GetFamilyPropBuyInfoInput) - Validation state: Valid
+INFO  2019-03-27 00:55:38,929 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MQKJ.BSMP.ChineseBabies.BabyPropAppService.GetFamilyPropBuyInfo (myAbp.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 315.9424ms.
+INFO  2019-03-27 00:55:39,006 [13   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-03-27 00:55:39,082 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MQKJ.BSMP.ChineseBabies.BabyPropAppService.GetFamilyPropBuyInfo (myAbp.Application) in 726.3269ms
+INFO  2019-03-27 00:55:39,101 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1906.717ms 200 application/json; charset=utf-8
+DEBUG 2019-03-27 00:56:12,781 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-27 00:56:12,806 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-03-27 00:56:12,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.Web.Host.Startup.myAbpWebHostModule, myAbp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:12,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpWebCoreModule, myAbp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:12,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpApplicationModule, myAbp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:12,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpCoreModule, myAbp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:12,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:12,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:12,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:12,829 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:12,829 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.EntityFrameworkCore.myAbpEntityFrameworkModule, myAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:12,829 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:12,829 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:12,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:12,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:12,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:12,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:12,832 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-03-27 00:56:12,888 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:56:12,888 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:56:12,888 [1    ] o.Configuration.LanguageManagementConfig - Converted myAbp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:56:12,888 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:56:13,139 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: myAbp.EntityFrameworkCore.myAbpDbContext, myAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:13,479 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-03-27 00:56:13,549 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-27 00:56:13,587 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-03-27 00:56:13,602 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: myAbp
+DEBUG 2019-03-27 00:56:13,627 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-27 00:56:13,656 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-27 00:56:13,694 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-03-27 00:56:13,694 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-03-27 00:56:13,701 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Users.Dto.CreateUserDto
+DEBUG 2019-03-27 00:56:13,701 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Users.Dto.UserDto
+DEBUG 2019-03-27 00:56:13,702 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-03-27 00:56:13,702 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-03-27 00:56:13,702 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.CreateRoleDto
+DEBUG 2019-03-27 00:56:13,702 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.PermissionDto
+DEBUG 2019-03-27 00:56:13,702 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.RoleDto
+DEBUG 2019-03-27 00:56:13,702 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-03-27 00:56:13,702 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.MultiTenancy.Dto.TenantDto
+DEBUG 2019-03-27 00:56:23,151 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-27 00:56:23,177 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-03-27 00:56:23,203 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.Web.Host.Startup.myAbpWebHostModule, myAbp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:23,205 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpWebCoreModule, myAbp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:23,205 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpApplicationModule, myAbp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:23,205 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.myAbpCoreModule, myAbp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:23,205 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:23,205 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:23,206 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:23,206 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:23,206 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: myAbp.EntityFrameworkCore.myAbpEntityFrameworkModule, myAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:23,206 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:23,206 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:23,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:23,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:23,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:23,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:23,210 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-03-27 00:56:23,259 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:56:23,259 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:56:23,259 [1    ] o.Configuration.LanguageManagementConfig - Converted myAbp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:56:23,259 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-03-27 00:56:23,494 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: myAbp.EntityFrameworkCore.myAbpDbContext, myAbp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-27 00:56:23,842 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-03-27 00:56:23,915 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-27 00:56:23,952 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-03-27 00:56:23,968 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: myAbp
+DEBUG 2019-03-27 00:56:23,994 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-27 00:56:24,023 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-27 00:56:24,063 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-03-27 00:56:24,063 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-03-27 00:56:24,069 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Users.Dto.CreateUserDto
+DEBUG 2019-03-27 00:56:24,069 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Users.Dto.UserDto
+DEBUG 2019-03-27 00:56:24,071 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-03-27 00:56:24,072 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-03-27 00:56:24,072 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.CreateRoleDto
+DEBUG 2019-03-27 00:56:24,072 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.PermissionDto
+DEBUG 2019-03-27 00:56:24,072 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.Roles.Dto.RoleDto
+DEBUG 2019-03-27 00:56:24,073 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-03-27 00:56:24,073 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - myAbp.MultiTenancy.Dto.TenantDto
+INFO  2019-03-27 00:56:57,215 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/BabyProp/GetFamilyPropBuyInfo?input=%7B%7D  
+INFO  2019-03-27 00:56:58,387 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetFamilyPropBuyInfo", controller = "BabyProp"}. Executing action MQKJ.BSMP.ChineseBabies.BabyPropAppService.GetFamilyPropBuyInfo (myAbp.Application)
+INFO  2019-03-27 00:56:58,644 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MQKJ.BSMP.ChineseBabies.BabyPropAppService.GetFamilyPropBuyInfo (myAbp.Application) with arguments (MQKJ.BSMP.ChineseBabies.GetFamilyPropBuyInfoInput) - Validation state: Valid
+INFO  2019-03-27 00:56:59,040 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MQKJ.BSMP.ChineseBabies.BabyPropAppService.GetFamilyPropBuyInfo (myAbp.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 394.8041ms.
+INFO  2019-03-27 00:56:59,106 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-03-27 00:56:59,178 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MQKJ.BSMP.ChineseBabies.BabyPropAppService.GetFamilyPropBuyInfo (myAbp.Application) in 787.5506ms
+INFO  2019-03-27 00:56:59,199 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1989.0083ms 200 application/json; charset=utf-8

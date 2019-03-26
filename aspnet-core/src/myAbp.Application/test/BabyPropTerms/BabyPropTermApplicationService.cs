@@ -6,6 +6,7 @@ using Abp.Domain.Uow;
 using Microsoft.EntityFrameworkCore;
 using MQKJ.BSMP.ChineseBabies.PropMall.BabyPropTerms.Dtos;
 using MQKJ.BSMP.ChineseBabies.PropMall.Props.Terms;
+using myAbp.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,8 +32,8 @@ namespace MQKJ.BSMP.ChineseBabies.PropMall
         }
 
 
-        [UnitOfWork]
-        public virtual async Task<bool> ValideBabyPropTermSatisfyHandle(BabyPropBuyTermIsSatisfyInput input)
+        //[UnitOfWork]
+        public  async Task<bool> ValideBabyPropTermSatisfyHandle(BabyPropBuyTermIsSatisfyInput input)
         {
             var res = await ProfessionLevelTermValidate(input, "dad");
 

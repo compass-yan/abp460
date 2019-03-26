@@ -2,7 +2,7 @@
 using System;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace MQKJ.BSMP.ChineseBabies.PropMall
+namespace myAbp.Core
 {
     [Table("PlayerProfessions")]
     public class PlayerProfession : FullAuditedEntity<int>

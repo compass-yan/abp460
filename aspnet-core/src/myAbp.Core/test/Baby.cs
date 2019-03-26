@@ -1,7 +1,7 @@
 ﻿using Abp.Domain.Entities.Auditing;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace MQKJ.BSMP.ChineseBabies.PropMall
+namespace myAbp.Core
 {
     [Table("Babies")]
     public class Baby : FullAuditedEntity<int>

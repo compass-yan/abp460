@@ -48,7 +48,11 @@ namespace MQKJ.BSMP.ChineseBabies
 
         public async Task<ICollection<GetFamilyPropBuyInfoOutput>> GetFamilyPropBuyInfo(GetFamilyPropBuyInfoInput input)
         {
-            var termStaff = await _babyPropBuyTermApplicationService.ValideBabyPropTermSatisfyHandle(new BabyPropBuyTermIsSatisfyInput() { FamilyId = 1, Term = null, BabyId = 1 });
+            for (int i = 0; i < 20; i++)
+            {
+                var termStaff = await _babyPropBuyTermApplicationService.ValideBabyPropTermSatisfyHandle(new BabyPropBuyTermIsSatisfyInput() { FamilyId = 1, BabyId = 1 });
+
+            }
             return null;
         }
 

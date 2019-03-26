@@ -6,7 +6,7 @@ namespace MQKJ.BSMP.ChineseBabies.PropMall.Props.Props
 {
   public   class PropStaffBuyTermInput
     {
-        public BabyProp BabyProp { get; set; }
+        //public BabyProp BabyProp { get; set; }
 
         public int BabyId { get; set; }
 
