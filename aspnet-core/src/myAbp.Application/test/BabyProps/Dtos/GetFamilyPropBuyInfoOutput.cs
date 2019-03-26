@@ -2,5 +2,6 @@
 {
     public class GetFamilyPropBuyInfoOutput
     {
+        public bool Res { get; set; }
     }
 }

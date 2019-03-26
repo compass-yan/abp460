@@ -50,12 +50,12 @@ namespace MQKJ.BSMP.ChineseBabies.PropMall
         {
             var baby = await _babyRepository.GetAllIncluding(s => s.Family).AsNoTracking()
                 .FirstOrDefaultAsync(s => s.Id == input.BabyId && s.FamilyId == input.FamilyId);
-            //var profession = await _playerProfessionRepository.GetAllIncluding()
-            //         .WhereIf(parentName == "mom", s => s.PlayerId == baby.Family.MotherId)
-            //         .WhereIf(parentName == "dad", s => s.PlayerId == baby.Family.FatherId)
-            //         .FirstOrDefaultAsync(s => s.IsCurrent && s.FamilyId == input.FamilyId);
-            //return profession.Level >= input.Term?.MinValue && profession.Level <= input.Term?.MaxValue;
-            return false;
+            var profession =  _playerProfessionRepository.GetAllIncluding()
+                     .WhereIf(parentName == "mom", s => s.PlayerId == baby.Family.MotherId)
+                     .WhereIf(parentName == "dad", s => s.PlayerId == baby.Family.FatherId)
+                     .FirstOrDefault(s => s.IsCurrent && s.FamilyId == input.FamilyId);
+            return profession?.Level >=1 && profession?.Level <=2;
+            //return false;
         }
 
 
